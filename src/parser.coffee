@@ -67,8 +67,16 @@ parseRequestLine = (requestLineString) ->
 
   parsed
 
-module.exports.parseRequest = parseRequest
-module.exports.parseResponse = parseResponse
-module.exports.parseRequestLine = parseRequestLine
-module.exports.parseStatusLine = parseStatusLine
-module.exports.parseHeaders = parseHeaders
+if module?.exports
+  module.exports.parseRequest = parseRequest
+  module.exports.parseResponse = parseResponse
+  module.exports.parseRequestLine = parseRequestLine
+  module.exports.parseStatusLine = parseStatusLine
+  module.exports.parseHeaders = parseHeaders
+else
+  @HttpStringParser =
+    parseRequest: parseRequest
+    parseResponse: parseResponse
+    parseRequestLine: parseRequestLine
+    parseStatusLine: parseStatusLine
+    parseHeaders: parseHeaders
