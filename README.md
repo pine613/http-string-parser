@@ -1,10 +1,10 @@
 # http-string-parser
 
-[![Build Status](https://travis-ci.org/apiaryio/http-string-parser.png)](https://travis-ci.org/apiaryio/http-string-parser)
-[![Dependency Status](https://david-dm.org/apiaryio/http-string-parser.png)](https://david-dm.org/apiaryio/http-string-parser)
-[![devDependency Status](https://david-dm.org/apiaryio/http-string-parser/dev-status.png)](https://david-dm.org/apiaryio/http-string-parser#info=devDependencies)
+[![Build Status](https://travis-ci.org/pine613/http-string-parser.png)](https://travis-ci.org/pine613/http-string-parser)
+[![Dependency Status](https://david-dm.org/pine613/http-string-parser.png)](https://david-dm.org/pine613/http-string-parser)
+[![devDependency Status](https://david-dm.org/pine613/http-string-parser/dev-status.png)](https://david-dm.org/pine613/http-string-parser#info=devDependencies)
 
-Parse HTTP messages (Request and Response) from raw string in Node.JS
+Parse HTTP messages (Request and Response) from raw string in Node.JS and browsers
 
 ##Parse HTTP Messages
 ```javascript
